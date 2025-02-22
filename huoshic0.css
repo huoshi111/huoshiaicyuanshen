@@ -1,0 +1,123 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(68, 68, 68);
+            background-image: url(https://tools-wiki.biligame.com/ys/simulator/dist/0236cba43ee34e7100a781778c9f1bc3.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            color: #b0afaf;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(43, 43, 43, 0.985);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+            height: 600px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            text-align: center;
+            color: #49d0e8de;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .message, .error-message {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .error-message {
+            color: #FF6347;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #53e6c9cf;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #79d4d4da;
+            border-radius: 5px;
+            border-color: rgb(92, 92, 92);
+            background: transparent;
+            color: #cbcbcbed;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        .input-group input:focus {
+            border-color: #999999db; /* 设置鼠标点击后的边框颜色为灰色 */
+            outline: none; /* 去除默认的蓝色外边框 */
+}
+
+
+        .button {
+            padding: 10px 20px;
+            background-color: #545454;
+            color: #c8c8c8;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #4b4b4b;
+            color: #cbcbcb;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .typing {
+    display: inline-block;
+    font-size: 18px;
+    color: #a7a7a7;
+}
+
+.typing-dot {
+    display: inline-block;
+    font-size: 40px;
+    animation: typingAnimation 1.4s infinite;
+}
+
+@keyframes typingAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+}
+
+/* 图片显示设置*/
+
+#character-image {
+    opacity: 0;  /* 初始状态透明 */
+    animation: fadeIn 1s ease-in-out 3s forwards; /* 3 秒后执行 1 秒渐变 */
+}

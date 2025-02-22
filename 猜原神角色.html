@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>火狮智能助手 猜 原神角色</title>
+    <link rel="stylesheet" href="huoshic0.css">
+</head>
+<body>
+    <div class="container">
+        <h1>火狮 智能助手 猜 原神角色 游戏</h1>
+        <br><br>
+        <div id="message" class="message">您在心中想好一名 原神 角色，然后输入 开始 我来猜您想到的角色是谁！ </div>
+        <br>
+
+        <div id="character-image" style="text-align: center;  display: none;">
+            <img id="character-img" src="" alt="角色照片" style="max-width: 220px; height: auto; border-radius: 10px; z-index: -1; ">
+        </div>
+        <div id="error-message" class="error-message"></div>
+
+        <div class="input-group">
+            <label for="userInput">请输入 开始 和输入您的回答：</label>
+            <input type="text" id="userInput" placeholder="火狮智能助手 猜角色 游戏">
+            <button class="button" onclick="processInput()">提交</button>
+            <button class="button" id="speechRecognitionButton" onclick="startSpeechRecognition()">🎤</button>
+            <button class="button" id="speechButton" onclick="toggleSpeech()">开启阅读</button>
+        </div>
+    </div>
+
+        <script src="huoshicprivacy禁止复制符号功能0.js"></script>
+        <script src="huoshicaudioyuyin0.js"></script>
+        <script src="huoshicyuanshendate.js"></script>
+
+</body>
+</html>
