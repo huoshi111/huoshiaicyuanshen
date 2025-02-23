@@ -1,5 +1,5 @@
         const genshinData = {
-            countries: ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "至冬", "其它"],
+            countries: ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "至冬", "未知"],
             genders: ["女", "男"],
             elements: ["风", "火", "雷", "岩", "水", "冰", "草", "无"],
             weapons: ["单手剑", "双手剑", "长柄武器", "法器", "弓"],
@@ -52,21 +52,24 @@
                 { name: "砂糖", country: "蒙德", gender: "女", element: "风", weapon: "法器", occupation: "	西风骑士团炼金术士", race: "人类" },
 
                 { name: "小派蒙", country: "蒙德", gender: "女", element: "无", weapon: "神之嘴", occupation: "旅行者的伙伴 “旅行者”的向导", race: "其他",
-                    image: "https://i2.hdslb.com/bfs/archive/3301280587c4c5c323ef7e72bb506194e4a8f9ac.jpg" },
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/4/49/3cebyo5dx87j61roqomsc36tchvivl6.png/750px-%E6%98%A5%E8%8A%82%C2%B72020.png.jpeg" },
 
                 { name: "诺艾尔", country: "蒙德", gender: "女", element: "岩", weapon: "双手剑", occupation: "骑士团女仆", race: "人类" },
 
+                { name: "米卡·施密特", country: "蒙德", gender: "男", element: "冰", weapon: "长柄武器", occupation: "西风骑士团前进测绘员 名字里 有 米 字", race: "",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/0/05/srtiubhipdpsgc8ctlrk0wj99rcg2o4.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E7%B1%B3%E5%8D%A1%C2%B72023.png" },
+
                 // 其它国度
-                { name: "埃洛伊", country: "其它", gender: "女", element: "冰", weapon: "弓", occupation: "诺拉的英勇猎手 棕色头发 绝版角色", race: "未知 绝版角色",
+                { name: "埃洛伊", country: "未知", gender: "女", element: "冰", weapon: "弓", occupation: "诺拉的英勇猎手 棕色头发 绝版角色", race: "未知 绝版角色",
                     image: "https://patchwiki.biligame.com/images/ys/b/b8/spgh6ar3itjue0w0oja9tq0xgsksibq.png"},
 
-                { name: "小派蒙", country: "其它", gender: "女", element: "无", weapon: "神之嘴", occupation: "旅行者的伙伴 “旅行者”的向导", race: "其他",
-                    image: "https://i2.hdslb.com/bfs/archive/3301280587c4c5c323ef7e72bb506194e4a8f9ac.jpg"},
+                { name: "小派蒙", country: "未知", gender: "女", element: "无", weapon: "神之嘴", occupation: "旅行者的伙伴 “旅行者”的向导", race: "其他",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/4/49/3cebyo5dx87j61roqomsc36tchvivl6.png/750px-%E6%98%A5%E8%8A%82%C2%B72020.png.jpeg"},
 
                 // 璃月
 
                 { name: "往生堂第七十七代堂主 ꧁ 胡桃 ꧂  (๑>◡<๑) ", country: "璃月", gender:"女", element:"火", weapon:"长柄武器", occupation: "堂主", race: "人类",
-                    image: "https://i0.hdslb.com/bfs/archive/46e80f06ac18e092bee75b1bc161d9d6a7cb31e1.jpg"},
+                    image: "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Hu_Tao_Cherries_Snow-Laden_Full_Wish.png/revision/latest/scale-to-width-down/1000?cb=20250106044833"},
 
                 { name: "香菱", country: "璃月", gender: "女", element: "火", weapon: "长柄武器", occupation: "璃月港的厨师", race: "人类",
                     image: "https://i2.hdslb.com/bfs/archive/5605901b52a30ccf2486c175dca33b97249b8b2f.jpg"},
@@ -123,20 +126,70 @@
                 
 
 
-                { name: "雷电将军", country: "稻妻", gender: "女", element: "雷", weapon: "长柄武器", occupation: "稻妻的统治者", race: "魔神" },
+                { name: "雷电将军", country: "稻妻", gender: "女", element: "雷", weapon: "长柄武器", occupation: "稻妻的统治者", race: "魔神",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/f/fa/kzn06kofjyu3niq2la7jgrnbp0vd9i4.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E9%9B%B7%E7%94%B5%E5%B0%86%E5%86%9B%C2%B72022.png"
+                 },
 
                 { name: "神里绫华", country: "稻妻", gender: "女", element: "冰", weapon: "单手剑", occupation: "「社奉行」神里家大小姐 白鹭公主", race: "人类",
                     image: "https://patchwiki.biligame.com/images/ys/thumb/5/5a/g97tb75ek2srf24opl1p7280li9g9zl.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E7%A5%9E%E9%87%8C%E7%BB%AB%E5%8D%8E%C2%B72020.png"},
 
-                { name: "枫原万叶", country: "稻妻", gender: "男", element: "风", weapon: "单手剑", occupation: "浪人武士", race: "人类" },
+                { name: "枫原万叶", country: "稻妻", gender: "男", element: "风", weapon: "单手剑", occupation: "浪人武士", race: "人类",
+                  image: "https://patchwiki.biligame.com/images/ys/thumb/d/dc/5ghku4r1b8vcyguces1b23yze7cd4ed.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E6%9E%AB%E5%8E%9F%E4%B8%87%E5%8F%B6%C2%B7%E5%85%B6%E4%B8%80.png"},
 
                 { name: "长野原宵宫", country: "稻妻", gender: "女", element: "火", weapon: "弓", occupation: "称号：琉焰华舞 稻妻的烟火师", race: "人类",
                     image: "https://bkimg.cdn.bcebos.com/pic/3c6d55fbb2fb43166d22eac859f3512309f790527573?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_720" },
 
-                { name: "珊瑚宫心海", country: "稻妻", gender: "女", element: "水", weapon: "法器", occupation: "珊瑚宫的宫主", race: "人类" },
+                { name: "珊瑚宫心海", country: "稻妻", gender: "女", element: "水", weapon: "法器", occupation: "珊瑚宫的宫主", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/d/d0/5roncwj2s4stvdhii4c1xiichtz5uap.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E7%8F%8A%E7%91%9A%E5%AE%AB%E5%BF%83%E6%B5%B7%C2%B7%E5%85%B6%E4%B8%80.png.jpeg"},
 
-                { name: "八重神子", country: "稻妻", gender: "女", element: "雷", weapon: "法器", occupation: "「鸣神大社」宫司", race: "仙狐" },
+                { name: "八重神子", country: "稻妻", gender: "女", element: "雷", weapon: "法器", occupation: "「鸣神大社」宫司", race: "仙狐",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/e/e7/i6fbrq4ecp406ow3ehxsefsjc8zfwsu.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%85%AB%E9%87%8D%E7%A5%9E%E5%AD%90%C2%B72022.png"},
 
+                { name: "早柚", country: "稻妻", gender: "女", element: "风", weapon: "双手剑", occupation: "「终末番」特属忍者", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/7/7d/hpv1jt1jpr3z6xhspscn9em36adi819.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E6%97%A9%E6%9F%9A%C2%B7%E5%85%B6%E4%B8%80.png"},
+
+                { name: "久岐忍", country: "稻妻", gender: "女", element: "雷", weapon: "单手剑", occupation: "「荒泷派」二把手 阿忍", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/2/2c/ma40rtj9sfe5ddfy2udsicimxkebcqc.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E4%B9%85%E5%B2%90%E5%BF%8D%C2%B72022.png"},
+
+                { name: "托马", country: "稻妻", gender: "男", element: "火", weapon: "长柄武器", occupation: "神里家家政官 黄发", race: "人类", 
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/f/f0/fhvt9sv9n4vvcpwxwokj96ii8odfbcr.png/750px-%E7%99%BD%E8%89%B2%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E6%89%98%E9%A9%AC%C2%B72022.png"
+                     },
+
+                { name: "神里绫人", country: "稻妻", gender: "男", element: "水", weapon: "单手剑", occupation: "社奉行神里家家主 喜欢喝奶茶", race: "人类",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/0/0f/9rg49udwahd9j2e4uaro0fa8xyheiqd.png/750px-%E7%99%BD%E8%89%B2%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E7%A5%9E%E9%87%8C%E7%BB%AB%E4%BA%BA%C2%B72023.png" },
+        
+                { name: "梦见月瑞希", country: "稻妻", gender: "女", element: "风", weapon: "法器", occupation: "她的名字里有《梦》字", race: "妖怪", 
+                        image: "https://patchwiki.biligame.com/images/ys/2/2a/tsbyq40l17iqgzzvcvwb5h8cbavmm8p.png" },
+        
+                { name: "散兵 流浪者", country: "稻妻", gender: "男", element: "风", weapon: "法器", occupation: "《很文明》", race: "人偶",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/2/24/00dumezzdxwih4n2a6no7u9fn84cew7.png/750px-%E6%84%9A%E4%BA%BA%E8%8A%82%C2%B7%E6%B5%81%E6%B5%AA%E8%80%85%C2%B72023.png" },
+        
+                { name: "散兵 流浪者", country: "须弥", gender: "男", element: "风", weapon: "法器", occupation: "《很文明》", race: "人偶",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/b/bf/beip6z09ybn0i49bf26m8lw810nykz4.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E6%B5%81%E6%B5%AA%E8%80%85%C2%B72023.png" },
+        
+                { name: "鹿野院平藏", country: "稻妻", gender: "男", element: "风", weapon: "法器", occupation: "天领奉行侦探，打拳", race: "人类",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/1/14/h2a077r7yfnauw4xazqo0y8qfn92j0l.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E9%B9%BF%E9%87%8E%E9%99%A2%E5%B9%B3%E8%97%8F%C2%B72022.png" },
+        
+                { name: "九条裟罗", country: "稻妻", gender: "女", element: "雷", weapon: "弓", occupation: "天领奉行大将 「眼狩令」的执行者，名字有一个《九》字", race: "妖怪 (天狗)", 
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/d/dd/3p1e569bfjg1gn7pubm3yqinlwh0z50.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E4%B9%9D%E6%9D%A1%E8%A3%9F%E7%BD%97%C2%B72022.png" },
+        
+                { name: "绮良良", country: "稻妻", gender: "女", element: "草", weapon: "单手剑", occupation: "快递", race: "妖怪 (猫又)",
+                         image: "https://patchwiki.biligame.com/images/ys/thumb/8/82/3crlc0q1iwmwmms7fxe1i3ir6orav8u.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E7%BB%AE%E8%89%AF%E8%89%AF%C2%B72024.png" },
+
+                { name: "千织", country: "稻妻", gender: "女", element: "岩", weapon: "单手剑", occupation: "服装设计师", race: "人类", 
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/6/63/agifx06b0ia53s1252jaby2vyzr3k3p.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%8D%83%E7%BB%87%C2%B72024.png.jpeg" },
+
+                { name: "荒泷一斗", country: "稻妻", gender: "男", element: "岩", weapon: "双手剑", occupation: "你把我的牛牛踩死啦，搞笑", race: "妖怪 (鬼族)",
+                         image: "https://patchwiki.biligame.com/images/ys/thumb/2/2d/nh3qyz5c4sa4cf6pyosr9vrkhdkp9it.png/750px-%E7%99%BD%E8%89%B2%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E8%8D%92%E6%B3%B7%E4%B8%80%E6%96%97%C2%B72023.png" },
+         
+                { name: "五郎", country: "稻妻", gender: "男", element: "岩", weapon: "弓", occupation: "怕 八重神子", race: "兽人(犬)",
+                         image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%96%B0%E5%B9%B4%C2%B72025.jpg" },
+         
+
+
+
+
+                // 须弥 
                 { name: "纳西妲", country: "须弥", gender: "女", element: "草", weapon: "法器", occupation: "「小吉祥草王」", race: "魔神",
                     image: "https://i2.hdslb.com/bfs/archive/a2d898106f04d1b2a46fd13e76ff23dc57920c12.jpg"},
 
@@ -144,13 +197,32 @@
 
                 { name: "赛诺 喜欢讲冷笑话", country: "须弥", gender: "男", element: "雷", weapon: "长柄武器", occupation: "大风纪官 讲冷笑话", race: "人类" },
 
-                { name: "早柚", country: "稻妻", gender: "女", element: "风", weapon: "双手剑", occupation: "「终末番」特属忍者", race: "人类" },
-
-                { name: "久岐忍", country: "稻妻", gender: "女", element: "雷", weapon: "单手剑", occupation: "「荒泷派」二把手 阿忍", race: "人类" },
-
                 { name: "艾尔海森", country: "须弥", gender: "男", element: "草", weapon: "单手剑", occupation: "须弥教令院书记官 大书记官", race: "人类" },
 
                 { name: "迪希雅", country: "须弥", gender: "女", element: "火", weapon: "双手剑", occupation: "	自由的沙漠佣兵", race: "人类" },
+
+                { name: "妮露", country: "须弥", gender: "女", element: "水", weapon: "单手剑", occupation: "「祖拜尔剧场之星」跳舞", race: "人类",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E5%A6%AE%E9%9C%B2%C2%B72023.png" },
+
+                { name: "珐露珊", country: "须弥", gender: "女", element: "风", weapon: "弓", occupation: "称呼 前辈", race: "人类",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%8F%90%E9%9C%B2%E7%8F%8A%C2%B72023.png" },
+
+                { name: "赛索斯", country: "须弥", gender: "男", element: "雷", weapon: "弓", occupation: "绿色眼睛", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/c/c9/pcpvdp91xt41afueycw2juyj4rv2m63.png" },
+
+                { name: "多莉·桑歌玛哈巴依", country: "须弥", gender: "女", element: "雷", weapon: "法器", occupation: "一天天的只知道喊魔拉", race: "人类",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E5%A4%9A%E8%8E%89%C2%B72022.png" },
+
+                { name: "卡维", country: "须弥", gender: "男", element: "草", weapon: "双手剑", occupation: "建筑设计师 住别人家", race: "人类",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E5%8D%A1%E7%BB%B4%C2%B72023.png" },
+
+                { name: "柯莱", country: "须弥", gender: "女", element: "草", weapon: "弓", occupation: "道成林见习巡林员 提纳里的学徒", race: "人类",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E6%9F%AF%E8%8E%B1%C2%B72023.png" },
+
+                { name: "莱依拉", country: "须弥", gender: "女", element: "冰", weapon: "单手剑", occupation: "不眠不醒不可思议", race: "人类/不知道",
+                     image: "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8E%B1%E4%BE%9D%E6%8B%89%C2%B72022.png" },
+
+
 
                 // 枫丹
 
@@ -161,7 +233,48 @@
                     image: "https://imgs.caipus.com/uploadfile/2023/1022/20231022024807696.jpg"},
 
                 { name: "希格雯", country: "枫丹", gender: "女", element: "水", weapon: "弓", occupation: "美露莘护士长 所属 梅洛彼得堡", race: "美露莘",
-                    image: "https://i0.hdslb.com/bfs/archive/9694b05e52aa6713f190d650a8471f424fd8a7b5.jpg"}
+                    image: "https://i0.hdslb.com/bfs/archive/9694b05e52aa6713f190d650a8471f424fd8a7b5.jpg"},
+
+                { name: "林尼·雪奈茨维奇", country: "枫丹", gender: "男", element: "火", weapon: "弓", occupation: "魔术师", race: "人类",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/d/d6/2zot3da543qv70s0vj18p7jx2j4apoq.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E6%9E%97%E5%B0%BC%C2%B72024.png" },
+
+                { name: "琳妮特·雪奈茨芙娜", country: "枫丹", gender: "女", element: "风", weapon: "单手剑", occupation: "「多功能魔术助理机关」枫丹猫猫 噔噔", race: "人类/兽人",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/d/df/2c8b5fhemcnny8lo8il8ra33w0yjq5o.png/750px-%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E7%90%B3%E5%A6%AE%E7%89%B9%C2%B72024.png" },
+
+                { name: "夏沃蕾", country: "枫丹", gender: "女", element: "火", weapon: "长柄武器/枪", occupation: "特巡队队长", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/thumb/2/2b/7yen8tq5z9hhmgf6jaoq8xoutattfk4.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%A4%8F%E6%B2%83%E8%95%BE%C2%B72024.png" },
+
+                { name: "克洛琳德", country: "枫丹", gender: "女", element: "雷", weapon: "单手剑", occupation: "决斗代理人 昵称/外号：枫丹雷神", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/thumb/1/1b/dpmsx964z2vecvhx9fb09f28wd2a361.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7%C2%B72024.png.jpeg" },
+
+                { name: "艾梅莉埃", country: "枫丹", gender: "女", element: "草", weapon: "长柄武器", occupation: "调香师", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/thumb/6/6e/2blnogfdnh7xfuohck6hitk0hc0533c.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E8%89%BE%E6%A2%85%E8%8E%89%E5%9F%83%C2%B72024.png.jpeg" },
+
+                { name: "莱欧斯利", country: "枫丹", gender: "男", element: "冰", weapon: "法器/拳", occupation: "梅洛彼得堡之主 典狱长", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/thumb/c/c6/eef8ysw9qqexdv7e1f8pisv7gkucehh.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E8%8E%B1%E6%AC%A7%E6%96%AF%E5%88%A9%C2%B72023.png" },
+
+                { name: "夏洛蒂", country: "枫丹", gender: "女", element: "冰", weapon: "法器/相机", occupation: "蒸汽鸟报记者", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/thumb/6/6a/qj9e365415kur5su2mv0r39sbcm4tmr.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%A4%8F%E6%B4%9B%E8%92%82%C2%B72024.png.jpeg" },
+
+                { name: "菲米尼·雪奈茨维奇", country: "枫丹", gender: "男", element: "冰", weapon: "双手剑", occupation: "枫丹廷资深潜水员", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/5/50/ii0njgeknl2alomr4x8qfm58mldfitf.png" },
+
+                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
+                    image: "" },
+
+                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
+                    image: "" },
+
+                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
+                    image: "" },
+
+
+                // 纳塔
+   
+
+                // 至冬  
+                { name: "佩露薇利·雪奈茨芙娜 仆人", country: "至冬", gender: "女", element: "火", weapon: "长柄武器", occupation: "愚人众十一执行官 第四席 父亲", race: "人类",
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/3/34/9abknyfcvftm82g38msxqqvyji30tkm.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E9%98%BF%E8%95%BE%E5%A5%87%E8%AF%BA%C2%B72024.png.jpeg" },
             ]
         };
 
