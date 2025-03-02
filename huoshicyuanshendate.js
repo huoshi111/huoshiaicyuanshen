@@ -69,7 +69,7 @@
                 // 璃月
 
                 { name: "往生堂第七十七代堂主 ꧁ 胡桃 ꧂  (๑>◡<๑) ", country: "璃月", gender:"女", element:"火", weapon:"长柄武器", occupation: "堂主", race: "人类",
-                    image: "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Hu_Tao_Cherries_Snow-Laden_Full_Wish.png/revision/latest/scale-to-width-down/1000?cb=20250106044833"},
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/2/25/4s72pq05iolzv86jq7ekixbndl328fb.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E8%83%A1%E6%A1%83%C2%B7%E5%85%B6%E4%B8%80.png"},
 
                 { name: "香菱", country: "璃月", gender: "女", element: "火", weapon: "长柄武器", occupation: "璃月港的厨师", race: "人类",
                     image: "https://i2.hdslb.com/bfs/archive/5605901b52a30ccf2486c175dca33b97249b8b2f.jpg"},
@@ -123,6 +123,10 @@
 
                 { name: "申鹤", country: "璃月", gender: "女", element: "冰", weapon: "长柄武器", occupation: "尘外身，人间客 昵称/外号: 小姨", race: "人类",
                     image: "https://i1.hdslb.com/bfs/archive/ee7626292929e24a0d84c8801cf694ee21c35a9c.jpg"},
+
+                { name: "「公子」达达利亚 阿贾克斯", country: "璃月", gender: "男", element: "水", weapon: "弓 鸭", occupation: "愚人众十一执行官 末席 至冬国驻璃月港玩具推销员主管", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/9/9e/7zmur66pm0otmwi1asumb7shidi4y8a.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E8%BE%BE%E8%BE%BE%E5%88%A9%E4%BA%9A%C2%B7%E5%85%B6%E4%B8%80.png" },
+    
                 
 
 
@@ -259,22 +263,43 @@
                 { name: "菲米尼·雪奈茨维奇", country: "枫丹", gender: "男", element: "冰", weapon: "双手剑", occupation: "枫丹廷资深潜水员", race: "人类",
                     image: "https://patchwiki.biligame.com/images/ys/5/50/ii0njgeknl2alomr4x8qfm58mldfitf.png" },
 
-                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
-                    image: "" },
+                { name: "千织", country: "枫丹", gender: "女", element: "岩", weapon: "单手剑", occupation: "枫丹廷 服装设计师", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/6/63/agifx06b0ia53s1252jaby2vyzr3k3p.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%8D%83%E7%BB%87%C2%B72024.png.jpeg" },
 
-                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
-                    image: "" },
-
-                { name: "", country: "枫丹", gender: "", element: "", weapon: "", occupation: " ", race: "",
-                    image: "" },
-
+                { name: "娜维娅·卡萨帕", country: "枫丹", gender: "女", element: "岩", weapon: "双手剑 雨伞", occupation: "枫丹大小姐 刺玫会会长、领导、老板、总指挥", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/5/5b/227pmal1qmpfoa9nvkjybfieb5tbb0p.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E5%A8%9C%E7%BB%B4%E5%A8%85%C2%B72024.png.jpeg" },
 
                 // 纳塔
-   
+                { name: "赫布里穆 火神", country: "纳塔", gender: "女", element: "火", weapon: "双手剑", occupation: "纳塔的骄阳 火神、战争之神", race: "人类/魔神",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/c/ce/ndj5erdv4e9k52u721lq2qnf6x6qz9q.png/750px-%E5%91%A8%E5%B9%B4%E5%BA%86%C2%B72024.png.jpeg" },
 
+                { name: "玛拉妮", country: "纳塔", gender: "女", element: "水", weapon: "法器", occupation: "纳塔鲨", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/9/97/h81o20kv0qqche2e8yil9upbc6wfyjj.png" },
+                
+                { name: "恰斯卡", country: "纳塔", gender: "女", element: "风", weapon: "弓", occupation: "会用枪, 有帽子", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/f/fd/sib2fn30bj37sdxrvoajhdlz4vgq930.png" },
+
+                { name: "欧洛伦", country: "纳塔", gender: "男", element: "雷 大孙子", weapon: "弓", occupation: "大孙子", race: "兽人（蝙蝠人）",
+                    image: "https://patchwiki.biligame.com/images/ys/a/a1/1qb1wevxtdykcov8kje4riaqzlcrvrj.png" },
+
+                { name: "基尼奇", country: "纳塔", gender: "男", element: "草", weapon: "双手剑 有个小家伙", occupation: "身边有个小家伙 有点像龙", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/5/5a/ca43v1uelterlvg9oaxexnf9su6vm13.png" },
+
+                { name: "茜特菈莉", country: "纳塔", gender: "女", element: "冰 粉色头发", weapon: "法器", occupation: "米克特兰的观星者 老萨满、边界大师、黑曜石奶奶", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/4/4e/mwu16snyqvudbkkodo4i4hjlsi9ii97.png/750px-%E6%83%85%E4%BA%BA%E8%8A%82%C2%B7%E8%8C%9C%E7%89%B9%E8%8F%88%E8%8E%89%C2%B72025.png.jpeg" },
+
+                { name: "希诺宁", country: "纳塔", gender: "女", element: "岩", weapon: "单手剑 滑冰鞋", occupation: "纳茨卡延的铁匠 打火的、岩大猫", race: "兽人（豹猫人）",
+                    image: "https://patchwiki.biligame.com/images/ys/a/a3/hwc7l4hbgw3lz7x2nd7yiz6jrwpkqs8.png" },
+
+                { name: "卡齐娜", country: "纳塔", gender: "女", element: "岩", weapon: "长柄武器 跳", occupation: "萝莉 打桩姬 跳", race: "人类/兽人",
+                    image: "https://patchwiki.biligame.com/images/ys/3/34/0f4tklgi7sp39eynan86ibhbj1au892.png" },
+                        
                 // 至冬  
+                { name: "「公子」达达利亚 阿贾克斯", country: "至冬", gender: "男", element: "水", weapon: "弓 鸭", occupation: "愚人众十一执行官 末席 至冬国驻璃月港玩具推销员主管", race: "人类",
+                    image: "https://patchwiki.biligame.com/images/ys/thumb/9/9e/7zmur66pm0otmwi1asumb7shidi4y8a.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E8%BE%BE%E8%BE%BE%E5%88%A9%E4%BA%9A%C2%B7%E5%85%B6%E4%B8%80.png" },
+
                 { name: "佩露薇利·雪奈茨芙娜 仆人", country: "至冬", gender: "女", element: "火", weapon: "长柄武器", occupation: "愚人众十一执行官 第四席 父亲", race: "人类",
-                        image: "https://patchwiki.biligame.com/images/ys/thumb/3/34/9abknyfcvftm82g38msxqqvyji30tkm.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E9%98%BF%E8%95%BE%E5%A5%87%E8%AF%BA%C2%B72024.png.jpeg" },
+                        image: "https://patchwiki.biligame.com/images/ys/thumb/3/34/9abknyfcvftm82g38msxqqvyji30tkm.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E9%98%BF%E8%95%BE%E5%A5%87%E8%AF%BA%C2%B72024.png.jpeg" }
             ]
         };
 
