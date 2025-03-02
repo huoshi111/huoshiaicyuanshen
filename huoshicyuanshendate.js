@@ -1,5 +1,5 @@
         const genshinData = {
-            countries: ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "至冬", "未知"],
+            countries: ["蒙德", "璃月", "稻妻", "须弥", "枫丹", "纳塔", "至冬", "未知国度"],
             genders: ["女", "男"],
             elements: ["风", "火", "雷", "岩", "水", "冰", "草", "无"],
             weapons: ["单手剑", "双手剑", "长柄武器", "法器", "弓"],
@@ -43,7 +43,7 @@
 
                 { name: "迪奥娜", country: "蒙德", gender: "女", element: "冰", weapon: "法器", occupation: "「猫尾酒馆」超人气调酒师", race: "兽人" },
 
-                { name: "莫娜", country: "蒙德", gender: "女", element: "水", weapon: "法器", occupation: "占星术士, 她的全名很长", race: "人类" },
+                { name: "阿斯托洛吉斯·莫娜·梅姬斯图斯", country: "蒙德", gender: "女", element: "水", weapon: "法器", occupation: "占星术士, 她的全名很长", race: "人类" },
 
                 { name: "罗莎莉亚", country: "蒙德", gender: "女", element: "冰", weapon: "长柄武器", occupation: "不合群的修女", race: "人类" },
 
@@ -60,12 +60,20 @@
                     image: "https://patchwiki.biligame.com/images/ys/thumb/0/05/srtiubhipdpsgc8ctlrk0wj99rcg2o4.png/750px-%E7%94%9F%E8%B4%BA%C2%B7%E7%B1%B3%E5%8D%A1%C2%B72023.png" },
 
                 // 其它国度
-                { name: "埃洛伊", country: "未知", gender: "女", element: "冰", weapon: "弓", occupation: "诺拉的英勇猎手 棕色头发 绝版角色", race: "未知 绝版角色",
+                { name: "埃洛伊", country: "未知国度", gender: "女", element: "冰", weapon: "弓", occupation: "诺拉的英勇猎手 棕色头发 绝版角色", race: "未知 绝版角色",
                     image: "https://patchwiki.biligame.com/images/ys/b/b8/spgh6ar3itjue0w0oja9tq0xgsksibq.png"},
 
-                { name: "小派蒙", country: "未知", gender: "女", element: "无", weapon: "神之嘴", occupation: "旅行者的伙伴 “旅行者”的向导", race: "其他",
+                { name: "小派蒙", country: "未知国度", gender: "女", element: "无", weapon: "神之嘴", occupation: "旅行者的伙伴 “旅行者”的向导", race: "其他",
                     image: "https://patchwiki.biligame.com/images/ys/thumb/4/49/3cebyo5dx87j61roqomsc36tchvivl6.png/750px-%E6%98%A5%E8%8A%82%C2%B72020.png.jpeg"},
 
+
+                { name: "戴因斯雷布", country: "未知国度", gender: "男", element: "未知", weapon: "未知", occupation: "「拾枝者」、「末光之剑」坎瑞亚  黄色头发", race: "其他",
+                    image: "https://patchwiki.biligame.com/images/ys/6/6a/6m2e56k6yp7ln42l4ef6o4ogwndcse1.png"},
+    
+
+                { name: "戴因斯雷布", country: "未知国度", gender: "男", element: "未知", weapon: "未知", occupation: "「拾枝者」、「末光之剑」坎瑞亚  黄色头发", race: "人类",
+                     image: "https://patchwiki.biligame.com/images/ys/6/6a/6m2e56k6yp7ln42l4ef6o4ogwndcse1.png"},
+        
                 // 璃月
 
                 { name: "往生堂第七十七代堂主 ꧁ 胡桃 ꧂  (๑>◡<๑) ", country: "璃月", gender:"女", element:"火", weapon:"长柄武器", occupation: "堂主", race: "人类",
